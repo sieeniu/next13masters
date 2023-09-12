@@ -1,5 +1,5 @@
 import { type ProductItemType } from "@/ui/types";
-import { formatPrice } from "@/ui/utils";
+import { formatPrice } from "@/utils/formatPrice";
 
 type ProductItemDescriptionProps = {
 	product: ProductItemType;
