@@ -1,7 +1,10 @@
+import { ProductList } from "@/ui/organisms/ProductList";
+import { products } from "@/mocks/Products";
+
 export default function Home() {
 	return (
-		<main className="flex min-h-screen items-center justify-center text-black dark:text-white ">
-			<h1 className="text-4xl font-bold">Hello world!</h1>
-		</main>
+		<section className="mx-auto max-w-md p-12 sm:max-w-2xl md:max-w-5xl lg:max-w-6xl">
+			<ProductList products={products} />
+		</section>
 	);
 }
